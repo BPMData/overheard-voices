@@ -1,6 +1,6 @@
-# OverHeard reader voices
+# OverHeard reader voices and translation models
 
-Browser-ready reader voices for [OverHeard](https://github.com/BPMData/OverHeard), served from
+Browser-ready reader voices and on-device translation models for [OverHeard](https://github.com/BPMData/OverHeard), served from
 GitHub Pages (CORS `*`) at `https://bpmdata.github.io/overheard-voices/`.
 
 ## Meta MMS text-to-speech (`mms-tts-<iso3>/`)
@@ -27,3 +27,9 @@ project: Pratap et al., *Scaling Speech Technology to 1,000+ Languages* (2023),
 [Creative Commons Attribution-NonCommercial 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
 (CC BY-NC 4.0). The only change made here is the format conversion and weight quantization described
 above. Non-commercial use only.
+
+## Bergamot translation models (`bergamot/`)
+
+English → X translation models from Mozilla's Firefox Translations (MPL-2.0), decompressed but
+otherwise unchanged. See [`bergamot/README.md`](bergamot/README.md) for the source, the list and
+the license.
