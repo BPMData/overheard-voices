@@ -18,6 +18,9 @@ Hugging Face Optimum 1.27.0, Transformers 4.46.3 and PyTorch 2.5.1, with its wei
 8-bit integers that the graph turns back into float; about 28 MB) and the original `vocab.json`.
 How they were made: `docs/mms-voices.md` in the OverHeard repository.
 
+`mms-tts-ind/model_quantized_rate088.onnx` is Indonesian exported with `speaking_rate` 0.88
+(about 10% slower than Meta's default, which sounded rushed); OverHeard uses that one.
+
 **Attribution and license.** These models are from Meta AI's Massively Multilingual Speech
 project: Pratap et al., *Scaling Speech Technology to 1,000+ Languages* (2023),
 [arXiv:2305.13516](https://arxiv.org/abs/2305.13516). They are licensed under
